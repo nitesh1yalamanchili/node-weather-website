@@ -18,7 +18,7 @@ weatherDoc.addEventListener('submit', (e) => {
     const output = search.value // .value extracts the input value
     messageOne.textContent = 'Loading...'
     messageTwo.textContent = ''
-    fetch('http://localhost:3000/weather?address='+output+'').then((response) => {
+    fetch('/weather?address='+output+'').then((response) => {
     response.json().then( (data) =>{
     if(data.error) {
         messageOne.textContent = data.error
