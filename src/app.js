@@ -29,8 +29,8 @@ app.get('',(req, res) => {
 app.get('/about', (req, res) => {
     res.render('about',{
         title:'About me',
-        introduction:"Hi, A recent graduate in Computer Science from the prestigious University of Dayton with a notable GPA of 3.57, I'm Nitesh Yalamanchili, and I am embarking on an exciting journey in the world of software development.",
-        background:'My academic pursuit was complemented by hands-on experience as a library assistant and IT support associate, where I honed my skills in organization, problem-solving, and technological expertise.',
+        introduction:"Hi, I'm Nitesh Yalamanchili. I graduated from the University of Dayton with a GPA of 3.57. During my time at university, I worked as a library assistant and an IT support associate. These jobs helped me learn about organization and problem-solving.",
+        background:"Now, I'm starting my career as a developer. I'm really excited about this new role, and I'm looking forward to learning and growing. My big dream is to work on Artificial Intelligence projects one day. I want to create things that can really make a difference in the world.",
         hobbies:'Outside of coding and technology, I love reading books and playing sports. I also enjoy traveling, as it helps me learn about different cultures and places.',
         name:'Nitesh Yalamanchili'
     })
