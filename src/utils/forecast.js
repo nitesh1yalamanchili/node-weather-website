@@ -7,7 +7,7 @@ const forecast = (latitude, longitude, callback) => {
         } else if(body.error){
             callback('unable to find loaction', undefined)
         } else{
-            callback(undefined, body.current.weather_descriptions[0] + ". It is currently " + body.current.temperature + " degress out. The uv_index is " + body.current.uv_index +"")
+            callback(undefined, " The weather is "+body.current.weather_descriptions[0] + ". It is currently " + body.current.temperature + " degress out. The uv_index is " + body.current.uv_index +"")
         }
     })
 } 
